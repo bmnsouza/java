@@ -1,3 +1,3 @@
 # Java
 
-Repositório de estudos sobre Java
+Repositório de estudos sobre **Java**
