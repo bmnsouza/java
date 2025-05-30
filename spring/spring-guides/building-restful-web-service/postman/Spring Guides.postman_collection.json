@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "89c651d7-82bb-4b11-8dad-306977bb1922",
+		"name": "Spring Guides",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4371786"
+	},
+	"item": [
+		{
+			"name": "1. Building a RESTful Web Service",
+			"item": [
+				{
+					"name": "greeting",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/greeting",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"greeting"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "User",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
