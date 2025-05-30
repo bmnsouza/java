@@ -21,4 +21,5 @@ public class ScheduledTasksTest {
 			verify(tasks, atLeast(2)).reportCurrentTime();
 		});
 	}
+
 }

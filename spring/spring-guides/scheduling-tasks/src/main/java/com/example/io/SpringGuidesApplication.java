@@ -11,4 +11,5 @@ public class SpringGuidesApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringGuidesApplication.class);
 	}
+
 }

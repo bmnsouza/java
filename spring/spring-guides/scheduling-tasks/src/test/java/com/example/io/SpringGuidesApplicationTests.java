@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringGuidesApplicationTest {
+class SpringGuidesApplicationTests {
 
 	@Autowired
 	private ScheduledTasks tasks;
@@ -17,4 +17,5 @@ class SpringGuidesApplicationTest {
 		// Basic integration test that shows the context starts up properly
 		assertThat(tasks).isNotNull();
 	}
+
 }

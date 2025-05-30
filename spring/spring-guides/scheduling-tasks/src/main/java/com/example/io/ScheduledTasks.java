@@ -19,4 +19,5 @@ public class ScheduledTasks {
 	public void reportCurrentTime() {
 		log.info("The time is now {}", dateFormat.format(new Date()));
 	}
+
 }
