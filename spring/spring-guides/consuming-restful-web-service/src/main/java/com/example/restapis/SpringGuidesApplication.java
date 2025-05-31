@@ -28,8 +28,6 @@ public class SpringGuidesApplication {
 	@Profile("!test")
 	CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
-			// Aguarde um pouco antes de fazer a chamada
-			Thread.sleep(3000); // alternativa simples			
 			Quote quote = restTemplate.getForObject("http://localhost:8080/api/random", Quote.class);
 			logger.info(quote.toString());
 		};
